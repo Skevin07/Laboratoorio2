@@ -10,11 +10,11 @@ class Carro2(marca:String,precio:Int, val numPuertas:Int):Carro1(marca,precio),P
 
     }
 
-    override val visualizar = "automovil2"
+    override val visualizar = "Dueño"
     override fun mirar()
     {
 
-        println("Esta persona esta viendo el $visualizar")
+        println("Este carro esta viendo el $visualizar")
     }
 
 }

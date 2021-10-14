@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
 
 
         claseHerecia()
+        claseInterfase()
 
 
 
@@ -31,8 +32,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun claseInterfase(){
 
-        val mirador = Niño("Daniel",10)
-        mirador.mirar
+        val mirador = Carro2("toyota",10,5)
+        mirador.mirar()
+        mirador.mirando()
+
 
 
 
