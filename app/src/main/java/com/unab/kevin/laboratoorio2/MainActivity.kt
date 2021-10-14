@@ -29,6 +29,16 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    private fun claseInterfase(){
+
+        val mirador = Niño("Daniel",10)
+        mirador.mirar
+
+
+
+
+    }
+
 
 
 

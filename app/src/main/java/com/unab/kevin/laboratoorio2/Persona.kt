@@ -5,7 +5,7 @@ interface Persona{
     val visualizar:String
     fun mirar()
     fun mirando(){
-        println("")
+        println("Estoy mirando el $visualizar ")
     }
 
 }
